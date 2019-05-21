@@ -1,6 +1,7 @@
 require_relative "piece.rb"
 require_relative "null_piece.rb"
 require 'byebug'
+
 class Board
   attr_reader :board
   
