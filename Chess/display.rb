@@ -12,6 +12,7 @@ class Display
   end
 
   def render
+    system("clear")
     board.board.each_with_index do |row, i|
       new_row = []
       row.each_with_index do |col, j|
@@ -46,6 +47,7 @@ end
  
 display = Display.new
 while true
+  
   display.cursor.get_input
   display.cursor.cursor_pos
   display.render
