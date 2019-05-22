@@ -10,7 +10,7 @@ class Piece
   end
 
   def moves(pos)
-
+    
   end
 
   def valid_move?(pos, end_pos)
